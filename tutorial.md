@@ -32,7 +32,7 @@ stuff
 -  [Rails for Zombies][8] - 5 free videos with interactive code quizzes from Code School  
 -  [Git][9] - understanding git  
 -  [RubyTapas][10] - Short screencasts twice a week will introduce you to a wide variety of intermediate to advanced Ruby concepts and techniques, as well as core Object-Oriented design principles.  
--  [RubyRogues][11]  
+-  [RubyRogues][11] - You understand about 20% in the beginning, but make sure to pause the episode, look stuff up and you'll get to know the lingo pret-ty fast. 
 -  Go to [a Ruby user group][12] and find a mentor!!  
 
 
@@ -47,4 +47,4 @@ stuff
 [9]:
 [10]:http://www.rubytapas.com/
 [11]:http://rubyrogues.com/
-[12http://rubyusergroups.org/
+[12]: http://rubyusergroups.org/

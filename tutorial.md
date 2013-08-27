@@ -10,6 +10,10 @@ Hi. My name is Floor. Two years ago I exchanged Rotterdam for Vienna to work at 
 I organized Rails Girls Rotterdam in January, organizing [Rails Girls The Hague][1] in September, I co-organize the [Ruby user group meetups in Vienna][2] and the [PyLadies workshops in Vienna][3]. I currently work at [Usersnap][4] and spend the little time that is left coaching at Rails Girls events and helping out where I can when it comes to [Rails Girls Summer of Code][5].
 
 
+Today we'll teach you some tips and trics on how to use the terminal (or: command prompt) to make it appear to non-developer bystanders like you're in the matrix. The terminal is more than a place where you enter commands to your computer. You can count how often a word appears in a single file, pull a random Chuck Norris quote using the Chuck Norris API, post a tweet from there or convert a large number of pictures to thumbnails. Just to name a few things. Plus: you don't need to install anything, as every computer has such a terminal thing. Let's get started:
+
+####Interactive Ruby
+stuff
 
 ####TryRuby
 stuff  
@@ -30,7 +34,7 @@ stuff
 -  [jenniferdewalt.com][6] - building a website a day  
 -  [Codecademy.com][7]  
 -  [Rails for Zombies][8] - 5 free videos with interactive code quizzes from Code School  
--  [Git][9] - understanding git  
+-  [GitImmersion][9] & [TryGit][13] - understanding git  
 -  [RubyTapas][10] - Short screencasts twice a week will introduce you to a wide variety of intermediate to advanced Ruby concepts and techniques, as well as core Object-Oriented design principles.  
 -  [RubyRogues][11] - You understand about 20% in the beginning, but make sure to pause the episode, look stuff up and you'll get to know the lingo pret-ty fast. 
 -  Go to [a Ruby user group][12] and find a mentor!!  
@@ -44,7 +48,8 @@ stuff
 [6]: http://blog.jenniferdewalt.com/
 [7]: http://www.codecademy.com/
 [8]: http://railsforzombies.org/
-[9]:
-[10]:http://www.rubytapas.com/
-[11]:http://rubyrogues.com/
+[9]: http://gitimmersion.com/
+[10]: http://www.rubytapas.com/
+[11]: http://rubyrogues.com/
 [12]: http://rubyusergroups.org/
+[13]: http://www.codeschool.com/courses/try-git

@@ -27,7 +27,7 @@ stuff
 ####Resources
 
 **Laura:**  
--  
+-  [Jessie learns to code][14] - tips, tricks, and ranting from a girl learning how to code
 -  
 
 **Floor:**  
@@ -53,3 +53,4 @@ stuff
 [11]: http://rubyrogues.com/
 [12]: http://rubyusergroups.org/
 [13]: http://www.codeschool.com/courses/try-git
+[14]: http://jessiecodes.wordpress.com/

@@ -55,8 +55,7 @@ Works, right? You can also run the short ```"hello Rails Girls"``` program witho
 ```ruby -e "puts 'Hello world'"```
 
 Or we can use ```irb``` again!  
-```irb```  
-```puts "Hello Rails Girls"```   
+```puts "Hello Rails Girls"```    
 
 Score!  
 
@@ -65,11 +64,11 @@ Score!
 ```planet = "mars"``  
 ```puts planet```  
 
-... and the terminal will 'print' ```mars```. 
+and the terminal will 'print' ```mars```. 
 
 ```puts "hello" + planet```  
 
-... and the terminal will 'print' ```hellomars```. 
+and the terminal will 'print' ```hellomars```. 
 
 ```puts "hello " + planet```  
 
@@ -77,7 +76,7 @@ Notice the extra space (pun intended) after ```hello```? The terminal will 'prin
 
 ```puts "hello " + planet.upcase + "!"``` 
 
-... and the terminal will 'print' ```hello MARS!```. 
+and the terminal will 'print' ```hello MARS!```. 
 
 ####Resources
 

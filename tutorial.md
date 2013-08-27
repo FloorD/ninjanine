@@ -61,7 +61,7 @@ Score!
 
 ####Planets!
 
-```planet = "mars"``  
+```planet = "mars"```  
 ```puts planet```  
 
 and the terminal will 'print' ```mars```. 

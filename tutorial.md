@@ -28,7 +28,6 @@ stuff
 
 **Laura:**  
 -  [Jessie learns to code][14] - tips, tricks, and ranting from a girl learning how to code
--  
 
 **Floor:**  
 -  [jenniferdewalt.com][6] - building a website a day  

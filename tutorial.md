@@ -13,16 +13,73 @@ I organized Rails Girls Rotterdam in January, organizing [Rails Girls The Hague]
 Today we'll teach you some tips and tricks on how to use the terminal (or: command prompt) to make it appear to non-developer bystanders like you're in the matrix. The terminal is more than a place where you enter commands to your computer. You can count how often a word appears in a single file, pull a random Chuck Norris quote using the Chuck Norris API, post a tweet from there or convert a large number of pictures to thumbnails. Just to name a few things. Plus: you don't need to install anything, as every computer has such a terminal thing. Let's get started:
 
 ####Interactive Ruby
-stuff
+Type ```irb``` and hit enter and you'll be able to write Ruby code, right in your editor. Run ```exit``` to exit interactive Ruby mode again.  
+
+We can do some basic stuff, like some math. Try it! Type ```2 + 6``` and you'll see! Now that was pretty easy, but ```irb``` can handle more complex stuff too!
+Just try:  
+
+```4 * 10```  
+```40 / 4```  
+
+or:
+```a = 2```  
+```b = 3```  
+```a + b```  
+
+Cool, huh?
 
 ####TryRuby
-stuff  
 
-####Hello, world! 
-stuff  
+We borrowed this part of the tutorial from [TryRuby][20], if you want to improve your 'terminal fluency' - and get your ninjanine on ;) - make sure to check out that course!  
 
-####Pop!
-stuff  
+Type your first name in quotes like this: ```"Laura"```  
+Congratulations, you've successfully formed a string from the letters of your name. A string is a set of characters the computer can process.  
+
+To reverse your name, type: ```"Laura".reverse``` (Don't forget the dot!)  
+You have used the reverse method on your name!  
+
+Now, let's make the computer count how many letters are in your name: ```"Laura".length```  
+Let's multiply your name by 5. ```"Laura" * 5```  
+
+You've used English-language methods like ```reverse``` and symbolic methods like * (the multiplication method.) Methods are actions!  
+
+####Hello, Rails Girls! 
+
+We can make our computer say all kinds of stuff too. Kinda.  
+Create a text file called ```hello-railsgirls.rb``` containing the following code:  
+
+```puts 'Hello Rails Girls'```  
+
+Save it and run it:  
+```ruby hello-railsgirls.rb```  
+
+Works, right? You can also run the short ```"hello Rails Girls"``` program without creating a text file at all. This is called a one-liner:  
+```ruby -e "puts 'Hello world'"```
+
+Or we can use ```irb``` again!  
+```irb```  
+```puts "Hello Rails Girls"```  
+
+Score!  
+
+####Planets!
+
+```planet = "mars"``  
+```puts planet```  
+
+... and the terminal will 'print' ```mars```. 
+
+```puts "hello" + planet```  
+
+... and the terminal will 'print' ```hellomars```. 
+
+```puts "hello " + planet```  
+
+Notice the extra space (pun intended) after ```hello```? The terminal will 'print' ```hello mars```. 
+
+```puts "hello " + planet.upcase + "!"``` 
+
+... and the terminal will 'print' ```hello MARS!```. 
 
 ####Resources
 
@@ -44,6 +101,7 @@ stuff
 [3]: http://www.meetup.com/PyLadies-Vienna/
 [4]: http://usersnap.com
 [5]: http://railsgirlssummerofcode.org/
+
 [6]: http://blog.jenniferdewalt.com/
 [7]: http://www.codecademy.com/
 [8]: http://railsforzombies.org/
@@ -52,4 +110,7 @@ stuff
 [11]: http://rubyrogues.com/
 [12]: http://rubyusergroups.org/
 [13]: http://www.codeschool.com/courses/try-git
+
 [14]: http://jessiecodes.wordpress.com/
+
+[20]: http://tryruby.org

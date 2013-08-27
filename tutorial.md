@@ -2,7 +2,7 @@
 
 **Introduction**  
 
-Laura is ...  
+Hej, I'm Laura. I'm originally from Italy, grew up in France, moved to Austria about 13 years ago, and also lived in Norway for a little while.  
 
 
 Hi. My name is Floor. Two years ago I exchanged Rotterdam for Vienna to work at a startup that does 'stuff' with reviews and is **not** called Yelp. I had worked as a community manager for agencies and startups for 5 years, and here I'd make a little step up, becoming head of community management (notice the 'head of'? That addition is not there for swag reasons alone, I actually managed a team). Partly because I had been doing more or less the same thing over and over for years, ie community management, because I wanted to 'make stuff' again (I have a background in design) and because I worked closely together with the developers there, I decided I wanted to pick up on something new. That something new was learning to program. As this startup's stack used Ruby on Rails, there was no real decision process here on what language I'd be learning. Cool thing is that many of my developer coworkers had coached at Rails Girls events, and I was familiar with their program. I started going though their courses, in August last year, supported by one of my coworkers. Little later my company supported me to work as a junior developer one day a week, mainly documenting bugs talking to marketing and communication, and actually fixing bugs. 
@@ -10,7 +10,7 @@ Hi. My name is Floor. Two years ago I exchanged Rotterdam for Vienna to work at 
 I organized Rails Girls Rotterdam in January, organizing [Rails Girls The Hague][1] in September, I co-organize the [Ruby user group meetups in Vienna][2] and the [PyLadies workshops in Vienna][3]. I currently work at [Usersnap][4] and spend the little time that is left coaching at Rails Girls events and helping out where I can when it comes to [Rails Girls Summer of Code][5].
 
 
-Today we'll teach you some tips and trics on how to use the terminal (or: command prompt) to make it appear to non-developer bystanders like you're in the matrix. The terminal is more than a place where you enter commands to your computer. You can count how often a word appears in a single file, pull a random Chuck Norris quote using the Chuck Norris API, post a tweet from there or convert a large number of pictures to thumbnails. Just to name a few things. Plus: you don't need to install anything, as every computer has such a terminal thing. Let's get started:
+Today we'll teach you some tips and tricks on how to use the terminal (or: command prompt) to make it appear to non-developer bystanders like you're in the matrix. The terminal is more than a place where you enter commands to your computer. You can count how often a word appears in a single file, pull a random Chuck Norris quote using the Chuck Norris API, post a tweet from there or convert a large number of pictures to thumbnails. Just to name a few things. Plus: you don't need to install anything, as every computer has such a terminal thing. Let's get started:
 
 ####Interactive Ruby
 stuff

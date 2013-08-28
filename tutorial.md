@@ -78,10 +78,32 @@ Notice the extra space (pun intended) after ```hello```? The terminal will 'prin
 
 and the terminal will 'print' ```hello MARS!```. 
 
+####Back To The Future
+
+The awesome thing about Ruby is that it knows a LOT of stuff. Let's try to quiz it!
+
+```Time.now```  
+
+Quite smart, right? It's today's date, indeed! Now try and guess what the following will do..
+
+```Time.now.wday```  
+
+That's right, the day of the week! But okay, we knew that too. We could try something a little complicated.. Like going back in time! Pick any date you want, and type it into your terminal like this (first the year, then the month, and finally the day):
+
+```t = Time.new(1986, 05, 01)```  
+
+What we just did was save your special date to a variable called t. Now you can, for example, check whether that day was a monday.
+
+```t.monday?```  
+
+Awesome, right? 
+
 ####Resources
 
 **Laura:**  
 -  [Jessie learns to code][14] - tips, tricks, and ranting from a girl learning how to code
+-  [Michael Hartl's Ruby on Rails Tutorial][15] - this one's pretty tough for a beginner, but don't give up!
+-  [RailsCasts][16] - though the screencasts tend to be pretty specific, they're very useful for getting to know some gems or solving problems.
 
 **Floor:**  
 -  [jenniferdewalt.com][6] - building a website a day  
@@ -109,5 +131,7 @@ and the terminal will 'print' ```hello MARS!```.
 [13]: http://www.codeschool.com/courses/try-git
 
 [14]: http://jessiecodes.wordpress.com/
+[15]: http://ruby.railstutorial.org/ruby-on-rails-tutorial-book
+[16]: http://railscasts.com/
 
 [20]: http://tryruby.org

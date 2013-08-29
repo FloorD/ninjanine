@@ -82,19 +82,27 @@ and the terminal will 'print' ```hello MARS!```.
 
 The awesome thing about Ruby is that it knows a LOT of stuff. Let's try to quiz it!  
 
-```Time.now```  
+```
+Time.now
+```  
 
 Quite smart, right? It's today's date, indeed! Now try and guess what the following will do.  
 
-```Time.now.wday```  
+```
+Time.now.wday
+```  
 
 That's right, the day of the week! But okay, we knew that too. We could try something a little complicated... Like going back in time! Pick any date you want, and type it into your terminal like this (first the year, then the month, and finally the day):  
 
-```t = Time.new(1986, 05, 01)```  
+```
+t = Time.new(1986, 05, 01)
+```  
 
 What we just did was save your special date to a variable called t. Now you can, for example, check whether that day was a monday.  
 
-```t.monday?```  
+```
+t.monday?
+```  
 
 Awesome, right?  
 

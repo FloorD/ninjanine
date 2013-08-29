@@ -86,9 +86,7 @@ The awesome thing about Ruby is that it knows a LOT of stuff. Let's try to quiz 
 
 Quite smart, right? It's today's date, indeed! Now try and guess what the following will do.  
 
-```
-Time.now.wday
-```  
+`Time.now.wday`  
 
 That's right, the day of the week! But okay, we knew that too. We could try something a little complicated... Like going back in time! Pick any date you want, and type it into your terminal like this (first the year, then the month, and finally the day):  
 

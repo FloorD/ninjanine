@@ -82,9 +82,7 @@ and the terminal will 'print' ```hello MARS!```.
 
 The awesome thing about Ruby is that it knows a LOT of stuff. Let's try to quiz it!  
 
-```
-Time.now
-```  
+<pre>Time.now</pre>  
 
 Quite smart, right? It's today's date, indeed! Now try and guess what the following will do.  
 

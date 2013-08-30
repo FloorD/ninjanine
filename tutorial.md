@@ -30,11 +30,26 @@ Cool, huh?
 
 We have both noticed that using the terminal for EVERYTHING - yes, also when we're just creating a folder to put all are cut cat pictures in - makes you feel really confident with the command line. Give it a try!  
 
-```mkdir ninjanine``` # make directory  
-```cd ninjanine```  # change into directory  
-```cd ..``` # moving one directory up  
-```mkdir ninjanine/img``` # creating a folder in a folder  
-```rm ninjanine``` # deleting a folder or directory  
+```
+mkdir ninjanine
+``` 
+# make directory  
+```
+cd ninjanine
+```  
+# change into directory  
+```
+cd ..
+``` 
+# moving one directory up  
+```
+mkdir ninjanine/img
+``` 
+# creating a folder in a folder  
+```
+rm ninjanine
+``` 
+# deleting a folder or directory  
 
 Another nifty tric: use the arrows on your keyboard to navigate through previous commands. This will save you a looooot of typing!  
 
@@ -75,27 +90,41 @@ Score!
 
 We can also use IRB again, to greet some planets (because: why not?!).  
 
-```irb```  
-```planet = "mars"```  
-```puts planet```  
+```
+irb
+```  
+```
+planet = "mars"
+```  
+```
+puts planet
+```  
 
 and the terminal will 'print' ```mars```. 
 
-```puts "hello" + planet```  
+```
+puts "hello" + planet
+```  
 
 and the terminal will 'print' ```hellomars```. 
 
-```puts "hello " + planet```  
+```
+puts "hello " + planet
+```  
 
 Notice the extra space (pun intended) after ```hello```? The terminal will 'print' ```hello mars```. 
 
-```puts "hello " + planet.upcase + "!"``` 
+```
+puts "hello " + planet.upcase + "!"
+``` 
 
 and the terminal will 'print' ```hello MARS!```. 
 
 Next we'll create some arrays! Arr-WHAT? Arrays are 'ordered, integer-indexed collections of any object'. Array indexing starts at 0, instead of at 1. A new array can be created by using ```[]```.  
 
-```planets = ["mars", "pluto", "jupiter"]```  
+```
+planets = ["mars", "pluto", "jupiter"]
+```  
 
 a ```puts planets``` will now return the planets in your array, one by one. 
 What do you think ```planets.pop(1)``` does?  
@@ -104,7 +133,9 @@ What do you think ```planets.pop(1)``` does?
 
 Adding a new planet to our array is equally simple:  
 
-```planets.push("venus")```  
+```
+planets.push("venus")
+```  
 
 Phew!  
 
@@ -116,7 +147,9 @@ The awesome thing about Ruby is that it knows a LOT of stuff. Let's try to quiz 
 
 Quite smart, right? It's today's date, indeed! Now try and guess what the following will do.  
 
-`Time.now.wday`  
+```
+Time.now.wday
+```
 
 That's right, the day of the week! But okay, we knew that too. We could try something a little complicated... Like going back in time! Pick any date you want, and type it into your terminal like this (first the year, then the month, and finally the day):  
 

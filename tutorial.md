@@ -73,6 +73,9 @@ Score!
 
 ####Planets!
 
+We can also use IRB again, to greet some planets (because: why not?!).  
+
+```irb```  
 ```planet = "mars"```  
 ```puts planet```  
 
@@ -89,6 +92,21 @@ Notice the extra space (pun intended) after ```hello```? The terminal will 'prin
 ```puts "hello " + planet.upcase + "!"``` 
 
 and the terminal will 'print' ```hello MARS!```. 
+
+Next we'll create some arrays! Arr-WHAT? Arrays are 'ordered, integer-indexed collections of any object'. Array indexing starts at 0, instead of at 1. A new array can be created by using ```[]```.  
+
+```planets = ["mars", "pluto", "jupiter"]```  
+
+a ```puts planets``` will now return the planets in your array, one by one. 
+What do you think ```planets.pop(1)``` does?  
+
+... Exactly! It 'pops' one planet out of our array. ```puts planets``` will now return only 2 of the 3 planets we originally put in there.  
+
+Adding a new planet to our array is equally simple:  
+
+```planets.push("venus")```  
+
+Phew!  
 
 ####Back To The Future
 

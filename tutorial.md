@@ -33,23 +33,23 @@ We have both noticed that using the terminal for EVERYTHING - yes, also when we'
 ```
 mkdir ninjanine
 ``` 
-# make directory  
+make directory  
 ```
 cd ninjanine
 ```  
-# change into directory  
+change into directory  
 ```
 cd ..
 ``` 
-# moving one directory up  
+moving one directory up  
 ```
 mkdir ninjanine/img
 ``` 
-# creating a folder in a folder  
+creating a folder in a folder  
 ```
 rm ninjanine
 ``` 
-# deleting a folder or directory  
+deleting a folder or directory  
 
 Another nifty tric: use the arrows on your keyboard to navigate through previous commands. This will save you a looooot of typing!  
 

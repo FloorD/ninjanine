@@ -26,6 +26,18 @@ or:
 
 Cool, huh?
 
+####Controlling EVERTHING from the terminal
+
+We have both noticed that using the terminal for EVERYTHING - yes, also when we're just creating a folder to put all are cut cat pictures in - makes you feel really confident with the command line. Give it a try!  
+
+```mkdir ninjanine``` # make directory  
+```cd ninjanine```  # change into directory  
+```cd ..``` # moving one directory up  
+```mkdir ninjanine/img``` # creating a folder in a folder  
+```rm ninjanine``` # deleting a folder or directory  
+
+Another nifty tric: use the arrows on your keyboard to navigate through previous commands. This will save you a looooot of typing!  
+
 ####TryRuby
 
 We borrowed this part of the tutorial from [TryRuby][20], if you want to improve your 'terminal fluency' - and get your ninjanine on ;) - make sure to check out that course!  

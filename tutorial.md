@@ -129,7 +129,7 @@ What we just did was save your special date to a variable called t. Now you can,
 Awesome, right?  
 If you want to ask your terminal to return the value of your t variable, you can always just type  
 
-```t```
+``` t ```
 
 and press Enter.
 However, that formatting doesn't look too nice.. Let's strftime the heck out of it! It goes like this:  

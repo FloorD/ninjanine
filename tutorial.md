@@ -125,13 +125,36 @@ Quite smart, right? It's today's date, indeed! Now try and guess what the follow
 
 That's right, the day of the week! But okay, we knew that too. We could try something a little complicated... Like going back in time! Pick any date you want, and type it into your terminal like this (first the year, then the month, and finally the day):  
 
-``` t = Time.new(1986, 05, 01) ```  
+``` t = Time.new(1985, 10, 26) ```  
 
 What we just did was save your special date to a variable called t. Now you can, for example, check whether that day was a monday.  
 
 ``` t.monday? ```  
 
 Awesome, right?  
+If you want to ask your terminal to return the value of your t variable, you can always just type  
+
+```t```
+
+and press Enter.
+However, that formatting doesn't look too nice.. Let's strftime the heck out of it! It goes like this:  
+
+``` t.strftime("%A %B %-d %Y") ```
+
+As you can see in your terminal, `%A` will give you the day of the week, `%B` the month, `%-d` the day of the month, and of course `%Y gives you the year. Jippie!  
+
+Now we can take our Delorean and travel back in time :)  
+
+``` puts "Delorean successfully travelling to " + t.strftime("%A %B %-d %Y") + " at 88 mph" ```
+
+We did forget to accelerate though, so here's how you can do that:  
+
+``` (0..88).each do |i|
+   puts "Delorean accelerating at #{i} km/h"
+end ```
+
+Enjoy travelling back and forth in time!
+
 
 ####Resources
 

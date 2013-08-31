@@ -144,9 +144,11 @@ Now we can take our Delorean and travel back in time :)
 
 We did forget to accelerate though, so here's how you can do that:  
 
-``` (0..88).each do |i|
+``` 
+(0..88).each do |i|
    puts "Delorean accelerating at #{i} km/h"
-end ```
+end 
+```
 
 Enjoy travelling back and forth in time!
 

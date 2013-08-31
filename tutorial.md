@@ -162,6 +162,7 @@ Enjoy travelling back and forth in time!
 -  [Jessie learns to code][14] - tips, tricks, and ranting from a girl learning how to code
 -  [Michael Hartl's Ruby on Rails Tutorial][15] - this one's pretty tough for a beginner, but don't give up!
 -  [RailsCasts][16] - though the screencasts tend to be pretty specific, they're very useful for getting to know some gems or solving problems.
+- [Rails/Ruby/Command Line Cheatsheet][18] - okay, everyone needs those.
 
 **Floor:**  
 -  [jenniferdewalt.com][6] - building a website a day  
@@ -192,5 +193,6 @@ Enjoy travelling back and forth in time!
 [14]: http://jessiecodes.wordpress.com/
 [15]: http://ruby.railstutorial.org/ruby-on-rails-tutorial-book
 [16]: http://railscasts.com/
+[18]: http://pragtob.github.io/rails-beginner-cheatsheet/
 
 [20]: http://tryruby.org

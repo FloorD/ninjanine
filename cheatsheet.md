@@ -1,6 +1,6 @@
 ## IT DOES NOT WORK
 
-### Have you checked...
+### Have you checked...?
 
 Don't panic, there might be an easy explanation and solution for your current problem.
 
@@ -8,13 +8,9 @@ Please run through the check list with us:
 
 ### My changes do not show!
 
-1. Did you save your changes?
-   Most editors use a combination of Control-S (Command-S) or you can use File&rarr;Save from the menu.
+1. [Did you save your changes?](cheatsheet/changes.md#did-you-save-your-changes)
 
-2. Did you restart the server?
-   First: Stop the server. Find the Terminal you started the server in and press 'CTRL-C'. If you find yourself on the
-   command prompt, cool. If not, try pressing 'CTRL-Q', then 'CTRL-C'. If in doubt, ask the next coach.
-   Second: Start the server using ``rails s`` or ``rails server``.
+2. [Did you restart the server?](cheatsheet/changes.md#did-you-restart-the-server)
 
 ### My server/console/rake task does not run!
 

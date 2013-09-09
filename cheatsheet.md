@@ -23,43 +23,13 @@ Please run through the check list with us:
 3. [Did you save your changes?](cheatsheet/changes.md#did-you-save-your-changes)
 4. [Did you restart the server?](cheatsheet/changes.md#did-you-restart-the-server)
 
-
-
 ###Bonus: are you using Rails 4?
 Run ```rails -v``` in your terminal to figure out which version of Rails you are using. It helps you Google your error messages, plus: a few problems with the Rails Girls (follow-up) guides are related to the Rails version you're using. Make sure to tell your coach what version you're running!
 
 ###Handling error messages
 
-1. Take a deep breath
+1. [Take a deep breath](bad.md#take-a-deep-breath)
 
-2. Scroll up (there's a thing called a 'stack trace', and usually only the first lines are interesting. As an example:
+2. [Scroll up and read the error](bad.md#scroll-up)
 
-```
-SyntaxError - /.../app/controllers/welcome_controller.rb:3: unterminated string meets end of file
-/.../app/controllers/welcome_controller.rb:3: syntax error, unexpected end-of-input, expecting keyword_end:
-  app/controllers/welcome_controller.rb:3:in `'
-  activesupport (4.0.0) lib/active_support/dependencies.rb:423:in `block in load_file'
-  activesupport (4.0.0) lib/active_support/dependencies.rb:615:in `new_constants_in'
-  activesupport (4.0.0) lib/active_support/dependencies.rb:422:in `load_file'
-  activesupport (4.0.0) lib/active_support/dependencies.rb:323:in `require_or_load'
-  activesupport (4.0.0) lib/active_support/dependencies.rb:462:in `load_missing_constant'
-  activesupport (4.0.0) lib/active_support/dependencies.rb:183:in `const_missing'
-  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
-  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize...
-
-...
-```
-
-Here the first line shows me that the problem is in the controller 'welcome_controller', in the method 'index' on line
-'3'. I would then:
-
-   1. Open the file and see if there is a problem with that line (in that case, I forgot to close a simple ``'`` quote),
-      correct the problem, save the file and check again
-
-   2. Copy the error to my browser and google for it.
-
-      Most problems have been discovered by others. There's usually a good discussion at 'stackoverflow' about it. Check
-      for the answers with the highest votes and people with the best overall reputation, and you will most likely find
-      an answer. Others appear at ruby or rails forums, or even in the rails guides. If everything fails, ask a colleague.
-
-   3. Ask your coach for help.
+3. [Ask your coach for help](bad.md#ask-your-coach-for-help)

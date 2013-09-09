@@ -14,16 +14,8 @@ Please run through the check list with us:
 
 ### My server/console/rake task does not run!
 
-1. Did you run bundle?
-   After adding gems to your Gemfile, did you run ``bundle`` or ``bundle install`` in the terminal?
-
-   **Hint:**
-
-   If trying to run ``rails``, ``rake`` or ``bundle check`` gives you the error message ``Your Gemfile's dependencies could
-   not be satisified``, you should run ``bundle`` or ``bundle install`` again and pay attention to eventual error messages.
-   Those error messages might either help you find the problem yourself, or if in doubt, ask a coach.
-
-2. Did you run all migrations?
+1. [Did you run ``bundle``?](cheatsheet/bundler.md#did-you-run-bundle)
+2. [Did you run all migrations?](cheatsheet/bundler.md#did-you-run-all-migrations)
 
    If the error is something like "... has no field _xy_" or "wrong datatype" or "Migrations pending" or anything
    similar, you should try to run ``rake db:migrate``. If this doesn't resolve the problem (or shows error messages like

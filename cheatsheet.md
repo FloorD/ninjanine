@@ -28,8 +28,8 @@ Run ```rails -v``` in your terminal to figure out which version of Rails you are
 
 ###Handling error messages
 
-1. [Take a deep breath](bad.md#take-a-deep-breath)
+1. [Take a deep breath](cheatsheet/bad.md#take-a-deep-breath)
 
-2. [Scroll up and read the error](bad.md#scroll-up)
+2. [Scroll up and read the error](cheatsheet/bad.md#scroll-up)
 
-3. [Ask your coach for help](bad.md#ask-your-coach-for-help)
+3. [Ask your coach for help](cheatsheet/bad.md#ask-your-coach-for-help)

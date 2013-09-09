@@ -9,7 +9,6 @@ Please run through the check list with us:
 ### My changes do not show!
 
 1. [Did you save your changes?](cheatsheet/changes.md#did-you-save-your-changes)
-
 2. [Did you restart the server?](cheatsheet/changes.md#did-you-restart-the-server)
 
 ### My server/console/rake task does not run!
@@ -17,22 +16,12 @@ Please run through the check list with us:
 1. [Did you run ``bundle``?](cheatsheet/bundler.md#did-you-run-bundle)
 2. [Did you run all migrations?](cheatsheet/bundler.md#did-you-run-all-migrations)
 
-   If the error is something like "... has no field _xy_" or "wrong datatype" or "Migrations pending" or anything
-   similar, you should try to run ``rake db:migrate``. If this doesn't resolve the problem (or shows error messages like
-   "Table _XY_ already exists", you might want to run ``rake db:migrate:reset`` or ``rake db:drop && rake db:create &&
-   rake db:migrate`` to re-initialize your workspace.
-
 ### There's that ugly error instead of my page!
 
-1. Did you check for typos in your code?
-
-   There's various reasons why rails code won't run. If the message contains 'Syntax Error', then Most likely it's
-   because you have a missing closing parenthesis ``)`` or curly brace ``}``
-
-   If the message contains 'nil has no function' or 'would output the object id of nil', then you might have mistyped a
-   variable name (e.g. omitting the ``@`` for member variables of simple letter swpa (see what I did there?) is
-   responsible). Correct the error, save the file, and in case the error doesn't go away, restart the server. If that
-   doesn't solve your problem - ask a coach.
+1. [Did you check for typos in your code?](error.md#did-you-check-for-typos-in-your-code)
+2. [Did you run all migrations?](cheatsheet/bundler.md#did-you-run-all-migrations)
+3. [Did you save your changes?](cheatsheet/changes.md#did-you-save-your-changes)
+4. [Did you restart the server?](cheatsheet/changes.md#did-you-restart-the-server)
 
 
 

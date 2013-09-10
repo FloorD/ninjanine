@@ -136,7 +136,7 @@ However, that formatting doesn't look too nice.. Let's strftime the heck out of 
 
 ``` t.strftime("%A %B %-d %Y") ```
 
-As you can see in your terminal, `%A` will give you the day of the week, `%B` the month, `%-d` the day of the month, and of course `%Y gives you the year. Jippie!  
+As you can see in your terminal, `%A` will give you the day of the week, `%B` the month, `%-d` the day of the month, and of course `%Y` gives you the year. Jippie!  
 
 Now we can take our Delorean and travel back in time :)  
 

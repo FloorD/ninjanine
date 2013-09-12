@@ -10,6 +10,7 @@ Please run through the check list with us:
 
 1. [Did you save your changes?](cheatsheet/changes.md#did-you-save-your-changes)
 2. [Did you restart the server?](cheatsheet/changes.md#did-you-restart-the-server)
+3. [Are you working in the correct directory?](cheatsheet/changes.md#are-you-working-in-the-correct-directory)
 
 ### My server/console/rake task does not run!
 

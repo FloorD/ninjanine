@@ -43,7 +43,7 @@ Another nifty trick: use the arrows on your keyboard to navigate through previou
 
 ####TryRuby
 
-We borrowed this part of the tutorial from [TryRuby][20], if you want to improve your 'terminal fluency' - and get your ninjanine on ;) - make sure to check out that course!  
+We borrowed this part of the tutorial from [TryRuby][2], if you want to improve your 'terminal fluency' - and get your ninjanine on ;) - make sure to check out that course!  
 
 Type your first name in quotes like this: ```"Laura"```  
 Congratulations, you've successfully formed a string from the letters of your name. A string is a set of characters the computer can process.  
@@ -156,3 +156,4 @@ end
 Enjoy travelling back and forth in time!
 
 [1]: http://www.sublimetext.com/
+[2]: http://tryruby.org

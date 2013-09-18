@@ -43,5 +43,3 @@ Happy coding!
 [15]: http://ruby.railstutorial.org/ruby-on-rails-tutorial-book
 [16]: http://railscasts.com/
 [18]: http://pragtob.github.io/rails-beginner-cheatsheet/
-
-[20]: http://tryruby.org

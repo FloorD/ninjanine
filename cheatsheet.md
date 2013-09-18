@@ -1,20 +1,36 @@
-###IT DOES NOT WORK
+## IT DOES NOT WORK
 
-####Have you checked... 
-######Did you save your changes?  
-######Did you restart the server?  
-(using ```rails s``` or ```rails server```)
-######Did you run bundle?
-After adding gems to your Gemfile, did you run ```bundle``` in the terminal?  
-######Did you run ...  
-``` rake db:migrate ```  
-######Did you check for typo's in your code?  
+### Have you checked...?
 
-######Bonus: are you using Rails 4?  
-Run ```rails -v``` in your terminal to figure out which version of Rails you are using. It helps you Google your error messages, plus: a few problems with the Rails Girls (follow-up) guides are related to the Rails version you're using. Make sure to tell your coach what version you're running!  
+Don't panic, there might be an easy explanation and solution for your current problem.
 
-####Handling error messages
-#######Don't panic  
-#######Google or 'stackoverflow' the error message  
-Google or 'stackoverflow' the error message you see in your terminal or on your localhost:3000, with the addition of your operating system (Windows, Mac, Linux) and possibly the version of Ruby or Rails you're currently using.  
-#######Ask your coach for help  
+Please run through the check list with us:
+
+### My changes do not show!
+
+1. [Did you save your changes?](cheatsheet/changes.md#did-you-save-your-changes)
+2. [Did you restart the server?](cheatsheet/changes.md#did-you-restart-the-server)
+3. [Are you working in the correct directory?](cheatsheet/changes.md#are-you-working-in-the-correct-directory)
+
+### My server/console/rake task does not run!
+
+1. [Did you run ``bundle``?](cheatsheet/bundler.md#did-you-run-bundle)
+2. [Did you run all migrations?](cheatsheet/bundler.md#did-you-run-all-migrations)
+
+### There's that ugly error instead of my page!
+
+1. [Did you check for typos in your code?](error.md#did-you-check-for-typos-in-your-code)
+2. [Did you run all migrations?](cheatsheet/bundler.md#did-you-run-all-migrations)
+3. [Did you save your changes?](cheatsheet/changes.md#did-you-save-your-changes)
+4. [Did you restart the server?](cheatsheet/changes.md#did-you-restart-the-server)
+
+###Bonus: are you using Rails 4?
+Run ```rails -v``` in your terminal to figure out which version of Rails you are using. It helps you Google your error messages, plus: a few problems with the Rails Girls (follow-up) guides are related to the Rails version you're using. Make sure to tell your coach what version you're running!
+
+###Handling error messages
+
+1. [Take a deep breath](cheatsheet/bad.md#take-a-deep-breath)
+
+2. [Scroll up and read the error](cheatsheet/bad.md#scroll-up)
+
+3. [Ask your coach for help](cheatsheet/bad.md#ask-your-coach-for-help)

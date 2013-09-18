@@ -23,7 +23,7 @@ Cool, huh?
 
 ####Controlling EVERTHING from the terminal
 
-We have both noticed that using the terminal for EVERYTHING - yes, also when we're just creating a folder to put all are cut cat pictures in - makes you feel really confident with the command line. Give it a try!  
+The first thing you have to know about the terminal is: you can't (really) break anything, so even though that giant screen can seem terrifying, you'll get to know it (and enjoy working in it!) super fast! Don't be scared! We have both noticed that using the terminal for EVERYTHING - yes, also when we're just creating a folder to put all are cut cat pictures in - makes you feel really confident with the command line. Give it a try!  
 
 ``` mkdir ninjanine ``` 
 to make directory  
@@ -35,12 +35,15 @@ to move one directory up
 to create a folder in a folder  
 ``` rm ninjanine ``` 
 to delete a folder or directory  
+``` ls ```
+to list everything in the current directory  
 
-Another nifty tric: use the arrows on your keyboard to navigate through previous commands. This will save you a looooot of typing!  
+
+Another nifty trick: use the arrows on your keyboard to navigate through previous commands. This will save you a looooot of typing!  
 
 ####TryRuby
 
-We borrowed this part of the tutorial from [TryRuby][20], if you want to improve your 'terminal fluency' - and get your ninjanine on ;) - make sure to check out that course!  
+We borrowed this part of the tutorial from [TryRuby][2], if you want to improve your 'terminal fluency' - and get your ninjanine on ;) - make sure to check out that course!  
 
 Type your first name in quotes like this: ```"Laura"```  
 Congratulations, you've successfully formed a string from the letters of your name. A string is a set of characters the computer can process.  
@@ -136,7 +139,7 @@ However, that formatting doesn't look too nice.. Let's strftime the heck out of 
 
 ``` t.strftime("%A %B %-d %Y") ```
 
-As you can see in your terminal, `%A` will give you the day of the week, `%B` the month, `%-d` the day of the month, and of course `%Y gives you the year. Jippie!  
+As you can see in your terminal, `%A` will give you the day of the week, `%B` the month, `%-d` the day of the month, and of course `%Y` gives you the year. Jippie!  
 
 Now we can take our Delorean and travel back in time :)  
 
@@ -153,3 +156,4 @@ end
 Enjoy travelling back and forth in time!
 
 [1]: http://www.sublimetext.com/
+[2]: http://tryruby.org

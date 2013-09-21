@@ -84,6 +84,7 @@ The list items are marked with numbers.
 <li></li>
 <li></li>
 </ol>
+```
 
 #####Tables  
 Tables are defined with the ```<table>``` tag.  
@@ -106,8 +107,8 @@ A table is divided into rows (with the ```<tr>``` tag), and each row is divided 
 ###Pretty dino's are pretty
 ```
 <head>
-		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
-		<title></title>
+	<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+	<title></title>
 </head>
 ```
 

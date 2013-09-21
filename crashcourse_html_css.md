@@ -8,7 +8,7 @@ A markup language is a programming language used to make text do more than just 
 
 We're going to create a simple website about dinosaurs. Ready? The first thing we should do is set up the skeleton of the page. Open your texteditor and paste in: 
 
-<pre>
+```
 <!DOCTYPE html>  
 <html>  
   <head>  
@@ -18,7 +18,7 @@ We're going to create a simple website about dinosaurs. Ready? The first thing w
   <body>  
   </body>  
 </html>  
-</pre>  
+```  
 
 ... and save the document as index.html.  
 
@@ -29,42 +29,36 @@ Everythink in between the ```<body>``` tags will contain what we'll see in the b
   
 Let's add some content, shall we? Beginning with some headers. From big, to big-ish, to smaller, we've got: ```<h1>```, ```<h2>```, ```<h3>```, ```<h4>```, ```<h5>``` and ```<h6>```. How big are we talking about?  
 
-#Supersaurus  
-134 feet long (41 m)  
-##Argentinosaurus  
-115-130 feet long (35-40 m)  
-###Seismosaurus  
-nicknamed "Earth-shaking lizard", this baby was 120+ feet long (37 m)  
-####Ultrasauros  
-100+ feet long (30 m)  
-#####Diplodocus  
-grew up to 90 feet long (28 m)  
-######Brachiosaurus  
-about 85 feet long (26 m)  
+#Supersaurus (134 feet long)  
+##Argentinosaurus (115-130 feet long)  
+###Seismosaurus (120+ feet long)  
+####Ultrasauros (100+ feet long)  
+#####Diplodocus (90 feet long)  
+######Brachiosaurus (85 feet long)  
 
 After a header, we can create a paragraph. Paragraphs need opening and closing ```<p></p>```: 
 
-<pre>
+```
 <body>  
   <h1></h1>  
     <p></p>  
     <h2></h2>  
       <p></p>  
 </body>   
-</pre>  
+``` 
 
 
 ```src``` stands for "source." It tells the ```<img>``` link where the picture comes from!  
 
-<pre>
+```
 <img src="" />  
-</pre>
+```
 
 Additionally, you could link a picture, to for instance, a [Wikipedia page](http://en.wikipedia.org/wiki/Dinosaurs).
 
-<pre>
+```
 <a href=""><img src="" /></a>  
-</pre>
+```
 
 ####Lists
 ####Tables, Divs, and Spans 

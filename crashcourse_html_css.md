@@ -4,7 +4,7 @@ Every webpage you look at is written in a language called HTML. You can think of
 
 A markup language is a programming language used to make text do more than just sit on a page: it can turn text into images, links, tables, lists, and much more. HTML is the markup language we'll be learning. What makes webpages pretty? That's CSS—Cascading Style Sheets. Think of it like skin and makeup that covers the bones of HTML.  
 
-####featuring: dinosaurs!
+###HTML dinosaurs
 
 We're going to create a simple website about dinosaurs. Ready? The first thing we should do is set up the skeleton of the page. Open your texteditor and paste in: 
 
@@ -86,25 +86,8 @@ The list items are marked with numbers.
 </ol>
 ```
 
-#####Tables  
-Tables are defined with the ```<table>``` tag.  
-
-A table is divided into rows (with the ```<tr>``` tag), and each row is divided into data cells (with the ```<td>``` tag). td stands for "table data," and holds the content of a data cell. A <td> tag can contain text, links, images, lists, forms, other tables, etc.  
-
-```
-<table border="1">  
-<tr>  
-<td>row 1, cell 1</td>  
-<td>row 1, cell 2</td>  
-</tr>  
-<tr>  
-<td>row 2, cell 1</td>  
-<td>row 2, cell 2</td>  
-</tr>  
-</table>   
-```
-
 ###Pretty dino's are pretty
+
 ```
 <head>
 	<link type="text/css" rel="stylesheet" href="stylesheet.css" />
@@ -112,8 +95,54 @@ A table is divided into rows (with the ```<tr>``` tag), and each row is divided 
 </head>
 ```
 
-
 ####Tables, Divs, and Spans 
+
+Tables are defined with the ```<table>``` tag.  
+
+A table is divided into rows (with the ```<tr>``` tag), and each row is divided into data cells (with the ```<td>``` tag). td stands for "table data," and holds the content of a data cell. A ```<td>``` tag can contain text, links, images, lists, forms, other tables, etc.  
+
+```
+<table border="1">
+<tr>
+<th>Header 1</th>
+<th>Header 2</th>
+</tr>
+<tr>
+<td>row 1, cell 1</td>
+<td>row 1, cell 2</td>
+</tr>
+<tr>
+<td>row 2, cell 1</td>
+<td>row 2, cell 2</td>
+</tr>
+</table>   
+```
+
+The ```<div>``` tag defines a division or a section in an HTML document. The ```<div>``` tag is used to group block-elements to format them with CSS.  
+The ```<div>``` element is very often used together with CSS, to layout a web page.
+
+#####Align
+left  
+right  
+center  
+
+The ```<span>``` tag is used to group inline-elements in a document. The ```<span>``` tag provides no visual change by itself. The ```<span>``` tag provides a way to add a hook to a part of a text or a part of a document.
+When a text is hooked in a ```<span>``` element, you can style it with CSS, or manipulate it with JavaScript.  
+
+###CSS
+
+Our stylesheet defines where HTML elements should go, what color they should be, how big they should be, and more. Open your texteditor and create a file called ```style.css```.
+A style sheet is a file that describes how an HTML file should look. That's it!
+
+We say these style sheets are cascading because the sheets can apply formatting when more than one style applies. For instance, if you say all paragraphs should have blue font, but you specifically single out one paragraph to have red font, CSS can do that! 
+There are two main reasons for separating your form/formatting (CSS) from your functional content/structure (HTML):  
+
+- You can apply the same formatting to several HTML elements (using inline styling) without rewriting code (e.g. style="color:red":) over and over  
+- You can apply similar appearance and formatting to several HTML pages from a single CSS file  
+
+
 ####Buttons!!
-####CSS Classes and IDs 
+####CSS Classes and IDs
+
+
 ####CSS Element Positioning 

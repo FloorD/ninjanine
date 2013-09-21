@@ -61,6 +61,57 @@ Additionally, you could link a picture, to for instance, a [Wikipedia page](http
 ```
 
 ####Lists
+
+#####Unordered lists
+An unordered list starts with the ```<ul>```` tag. Each list item starts with the ```<li>``` tag.  
+The list items are marked with bullets (typically small black circles).  
+
+```
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+```
+
+#####Ordered lists
+An ordered list starts with the ```<ol>``` tag. Each list item starts with the ```<li>``` tag.  
+The list items are marked with numbers.  
+
+```
+<ol>
+<li></li>
+<li></li>
+<li></li>
+</ol>
+
+#####Tables  
+Tables are defined with the ```<table>``` tag.  
+
+A table is divided into rows (with the ```<tr>``` tag), and each row is divided into data cells (with the ```<td>``` tag). td stands for "table data," and holds the content of a data cell. A <td> tag can contain text, links, images, lists, forms, other tables, etc.  
+
+```
+<table border="1">  
+<tr>  
+<td>row 1, cell 1</td>  
+<td>row 1, cell 2</td>  
+</tr>  
+<tr>  
+<td>row 2, cell 1</td>  
+<td>row 2, cell 2</td>  
+</tr>  
+</table>   
+```
+
+###Pretty dino's are pretty
+```
+<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+		<title></title>
+</head>
+```
+
+
 ####Tables, Divs, and Spans 
 ####Buttons!!
 ####CSS Classes and IDs 

@@ -6,20 +6,22 @@ Hi. My name is Floor. Two years ago I exchanged Rotterdam for Vienna to work at 
 
 ####Resources
 
-**Laura:**  
--  [Jessie learns to code][14] - tips, tricks, and ranting from a girl learning how to code
--  [Michael Hartl's Ruby on Rails Tutorial][15] - this one's pretty tough for a beginner, but don't give up!
--  [RailsCasts][16] - though the screencasts tend to be pretty specific, they're very useful for getting to know some gems or solving problems.
+**Laura:**
+
+- [Jessie learns to code][14] - tips, tricks, and ranting from a girl learning how to code
+- [Michael Hartl's Ruby on Rails Tutorial][15] - this one's pretty tough for a beginner, but don't give up!
+- [RailsCasts][16] - though the screencasts tend to be pretty specific, they're very useful for getting to know some gems or solving problems.
 - [Rails/Ruby/Command Line Cheatsheet][18] - okay, everyone needs those.
 
-**Floor:**  
--  [jenniferdewalt.com][6] - building a website a day  
--  [Codecademy.com][7] - Codecademy is a great resource to learn Web Fundamentals (HTML, CSS and JavaScript) and programming languages like Ruby, or Python.
--  [Rails for Zombies][8] - 5 free videos with interactive code quizzes from Code School  
--  [GitImmersion][9] & [TryGit][13] - understanding git  
--  [RubyTapas][10] - Short screencasts twice a week will introduce you to a wide variety of intermediate to advanced Ruby concepts and techniques, as well as core Object-Oriented design principles.  
--  [RubyRogues][11] - You understand about 20% in the beginning, but make sure to pause the episode, look stuff up and you'll get to know the lingo pret-ty fast. 
--  Go to [a Ruby user group][12] and find a mentor!!  
+**Floor:**
+
+- [jenniferdewalt.com][6] - building a website a day  
+- [Codecademy.com][7] - Codecademy is a great resource to learn Web Fundamentals (HTML, CSS and JavaScript) and programming languages like Ruby, or Python.
+- [Rails for Zombies][8] - 5 free videos with interactive code quizzes from Code School  
+- [GitImmersion][9] & [TryGit][13] - understanding git  
+- [RubyTapas][10] - Short screencasts twice a week will introduce you to a wide variety of intermediate to advanced Ruby concepts and techniques, as well as core Object-Oriented design principles.  
+- [RubyRogues][11] - You understand about 20% in the beginning, but make sure to pause the episode, look stuff up and you'll get to know the lingo pret-ty fast. 
+- Go to [a Ruby user group][12] and find a mentor!
 
 Happy coding!
 

@@ -1,4 +1,4 @@
-###Crash Course HTML & CSS
+##Crash Course HTML & CSS
 
 Every webpage you look at is written in a language called HTML. You can think of HTML as the skeleton that gives every webpage structure. HTML stands for HyperText Markup Language. Hypertext means "text with links in it." You know when you visit a website and see a headline and a bunch of paragraphs? A computer can tell the difference between a paragraph and a headline because each has its own HTML tag. 
 

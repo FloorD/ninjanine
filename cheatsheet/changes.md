@@ -2,33 +2,29 @@
 
 ### Did you save your changes?
 
-   Most editors use a combination of Control-S (Command-S) or you can use File&rarr;Save from the menu.
+   Most editors use a combination of <kbd>Control-S</kbd> (<kbd>Command-S</kbd>) or you can use File&rarr;Save from the menu.
 
 ### Did you restart the server?
 
-   First: Stop the server. Find the Terminal you started the server in and press 'CTRL-C'.
+First: Stop the server. Find the Terminal you started the server in and press <kbd>CTRL-C</kbd>.
 
-   If you find yourself on the command prompt, cool. If not, try pressing 'CTRL-Q', then 'CTRL-C'. If in doubt, ask the
-   next coach.
+If you find yourself on the command prompt, cool. If not, try pressing <kbd>CTRL-Q</kbd>, then <kbd>CTRL-C</kbd>. If in doubt, ask the next coach.
 
-   Second: Start the server using ``rails s`` or ``rails server``.
+Second: Start the server using `rails s` or `rails server`.
 
 ### Are you working in the correct directory?
 
 On the commandline, it's easy to get lost. Don't worry, we'll get you there. Let's check that step by step:
 
 1. Check the directory of the server:
-   Change to the terminal, stop the server (unless it's not running) and use the command ``pwd`` (end with _ENTER_) - it
-   should show you the path like this:
+   Change to the terminal, stop the server (unless it's not running) and use the command `pwd` (end with _ENTER_) - it should show you the path like this:
 
-   ```bash
+```bash
+$ pwd
+/Users/you/projects/railsgirls
+```
 
-   $ pwd
-   /Users/you/projects/railsgirls
-   ```
-
-   _Attention_: Don't type the ``$`` sign, it just marks the end of the so-called 'prompt', where you are supposed to
-   type a command.
+   _Attention_: Don't type the `$` sign, it just marks the end of the so-called 'prompt', where you are supposed to type a command.
 
 2. Check the directory of the files:
    Go to menu __File__&rarr;__Open Recent__. The upper half of the menu should show recently opened and saved files, the

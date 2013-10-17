@@ -2,25 +2,25 @@
 
 JavaScript makes websites respond to user interaction, plus you can use it to build apps and games, access information on the Internet and organize and present data. Let's just say that at the moment something changes on a page without you clicking on something, it's **probably** JavaScript at work. Like when your Facebook Timeline updates or Google autocompletes your search term. 
 
-```"yourName".length```   
-```3 + 4```  
-```3 / 4```  
+``` "yourName".length ```   
+``` 3 + 4 ```  
+``` 3 / 4 ```  
 
-```"yourName".length * 9```  
+``` "yourName".length * 9 ```  
 
 There are some things you can't do in the console. If you use words that aren't in the JavaScript language, it will get confused and give you an error.  
 
-```// This is a comment that the computer will ignore.```   
+``` // This is a comment that the computer will ignore. ```   
 
 
 ##You are awesome!
 These boxes can be used on websites to confirm things with users. You've probably seen them pop up when you try to delete important things or leave a website with unsaved changes.  
-```confirm("I am awesome!");```  
+``` confirm("I am awesome!"); ```  
 
 To do any of these actions, the program needs an input. You can ask for input with a prompt:  
-```prompt("What is your name?");```
+``` prompt("What is your name?"); ```
 
-note the little input field?
+... note the little input field? I bet you've seen that somewhere before ;)
 
 Numbers are quantities, just like you're used to. You can do math with them. Strings are sequences of characters, like the letters a-z, spaces, and even numbers. 
 To write a string, surround the string with quotes: "What is your name?"
@@ -31,7 +31,7 @@ The third type of data is a boolean (just say "bool-ee-un"). A boolean can have 
 5 < 4 is just crazy talk, so it evaluates to false  
 
 Try it:  
-```"I'm awesome!".length > 10```  
+``` "I'm awesome!".length > 10 ```  
 
 ##console.log("Hello")
 
@@ -40,12 +40,12 @@ console.log("Hello")
 
 
 List of comparison operators:
-```>``` Greater than  
-```<``` Less than  
-```<=``` Less than or equal to  
-```>=``` Greater than or equal to  
-```===``` Equal to  
-```!==``` Not equal to  
+``` > ``` Greater than  
+``` < ``` Less than  
+``` <= ``` Less than or equal to  
+``` >= ``` Greater than or equal to  
+``` === ``` Equal to  
+``` !== ``` Not equal to  
 
 Remember: = is for assignment, and === is to check if things are equal!  
 
@@ -61,11 +61,11 @@ else // "otherwise"
 }  
 </pre>
 
-Let's meet an interesting symbol called modulo. When ```% ``` is placed between two numbers, the computer will divide the first number by the second, and then return the remainder of that division. So if we do ```23 % 10```, we divide 23 by 10 which equals 2 with 3 left over. So ```23 % 10``` evaluates to 3. Is this useful for web development stuff? Not really. So let's move on.  
+Let's meet an interesting symbol called modulo. When ``` % ``` is placed between two numbers, the computer will divide the first number by the second, and then return the remainder of that division. So if we do ```23 % 10```, we divide 23 by 10 which equals 2 with 3 left over. So ```23 % 10``` evaluates to 3. Is this useful for web development stuff? Not really. So let's move on.  
 
 Sometimes you don't want to display the entire string, just a part of it. For example, in your Gmail inbox, you can set it to display the first 50 or so characters of each message so you can preview them. This preview is a substring of the original string (the entire message). 
 
-```"some word".substring(x, y)``` where x is where you start chopping and y is where you finish chopping the original string.
+``` "some word".substring(x, y) ``` where x is where you start chopping and y is where you finish chopping the original string.
 
 The number part is a little strange. To select for the "he" in "hello", you would write this: ```"hello". substring(0, 2)```;
 
@@ -77,7 +77,7 @@ To do more complex coding, we need a way to 'save' the values from our coding. W
 
 Code:  
 
-```var varName = data;```  
+``` var varName = data; ```  
 
 Like:  
 <pre>
@@ -86,12 +86,12 @@ console.log(myAge);
 </pre>  
 
 And using it:  
-```var myName = "Laura";```  
+``` var myName = "Laura"; ```  
 
 Use console.log to print out the length of the variable myName:  
-```console.log( myName.length );```  
+``` console.log( myName.length ); ```  
 Use console.log to print out the first three letters of myName:  
-```console.log( myName.substring(0,3) );```  
+``` console.log( myName.substring(0,3) ); ```  
 
 ##Make up your own fairytale 
 
@@ -166,22 +166,21 @@ console.log(4)
 console.log(5)  
 </pre>
 
-Instead of manually typing in ```console.log``` five times, we can use a ```for``` loop to do this.
+Instead of manually typing in ``` console.log ``` five times, we can use a ``` for ``` loop to do this.
 
-<pre>
-for (var counter = 1; counter < 6; counter++) {  
-	console.log(counter);  
-}  
-</pre>
+``` for (var counter = 1; counter < 6; counter++) { ```   
+```	console.log(counter);  ```  
+``` } ```  
 
-```i = i + 1```. This has meant we have incremented (increased) the variable i by 1 each time.
+``` i = i + 1 ```  
+This has meant we have incremented (increased) the variable i by 1 each time.
 
 Repeat after me:  
-a. A more efficient way to code to increment up by 1 is to write ```i++```.
-b. We decrement down by 1 by writing ```i--```.
-c. We can increment up by any value by writing ```i += x```, where x is how much we want to increment up by. e.g., ```i += 3``` counts up by 3s.
-d. We can decrement down by any value by writing ```i -= x```. (See the Hint for more.)
-e. Be very careful with your syntax—if you write a loop that can't properly end, it's called an infinite loop. It will crash your browser! Which is fun once. But then it gets annoying.  
+1. A more efficient way to code to increment up by 1 is to write ```i++```.
+2. We decrement down by 1 by writing ```i--```.
+3. We can increment up by any value by writing ```i += x```, where x is how much we want to increment up by. e.g., ```i += 3``` counts up by 3s.
+4. We can decrement down by any value by writing ```i -= x```. (See the Hint for more.)
+5. Be very careful with your syntax—if you write a loop that can't properly end, it's called an infinite loop. It will crash your browser! Which is fun once. But then it gets annoying.  
 
 ##While that is true...  
 
@@ -190,4 +189,4 @@ e. Be very careful with your syntax—if you write a loop that can't properly en
 ##Arrays and Objects
 
 ##OMG YOU MADE IT THROUGH
-```confirm("You are awesome!");```
+``` confirm("You are awesome!"); ```

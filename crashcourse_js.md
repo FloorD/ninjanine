@@ -289,7 +289,6 @@ So far we've seen how to control our programs given a single condition: whether 
 For this, we'll need logical operators. JavaScript has three: and (&&), or (||), and not (!).
 
 
-
 The logical operator and is written in JavaScript like this: &&. It evaluates to true when both expressions are true; if they're not, it evaluates to false.
 
 ``` true && true // => true ```  
@@ -315,7 +314,7 @@ The logical operator not is written in JavaScript like this: !. It makes true ex
 
 or:  
 
-``` var array = ["Laura", "Andy", "Tony", "Floor"]; ```  
+``` var array = ["Laura", "Andy", "Tony", "Floor"]; ```   
 
 OR you can have a heterogeneous array, which means a mixture of data types, like so:
 
@@ -323,15 +322,15 @@ OR you can have a heterogeneous array, which means a mixture of data types, like
 
 you can even put other arrays inside arrays. You can make a two-dimensional array by nesting arrays one layer deep, like so:
 
-var twoDimensional = [[1, 1], [1, 1]];
+``` var twoDimensional = [[1, 1], [1, 1]]; ```  
 if you really wanted, you could put arrays inside arrays inside arrays for even more dimensions!
 
-Do you remember how you can call stuff like ```.length``` on strings? You can do that with arrays as well!  
+Do you remember how you can call stuff like ``` .length ``` on strings? You can do that with arrays as well!  
 
 Sometimes you want arrays that aren't as nice and even as your 3 x 3 two-dimensional array: you may have three elements in the first row, one element in the second row, and two elements in the third row. JavaScript allows those, and they're called jagged arrays.
 
 ``` var languages = ["HTML", "CSS", "JavaScript", "Python", "Ruby"]; ```  
-``` console.log(languages[2]); 
+``` console.log(languages[2]); ``` 
 
 Time to crack another joke:  
 What is this?*  
@@ -385,8 +384,6 @@ In JavaScript all properties of an object are automatically public. Public means
 what if an object wants to keep some information hidden?
 
 Just as functions can have local variables which can only be accessed from within that function, objects can have private variables. Private variables are pieces of information you do not want to publicly share, and they can only be directly accessed from within the class.
-
-
 
 ##OMG YOU MADE IT THROUGH
 ``` confirm("You are awesome!"); ```

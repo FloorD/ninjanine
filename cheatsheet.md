@@ -19,7 +19,7 @@ Please run through the check list with us:
 
 ### There's that ugly error instead of my page!
 
-1. [Did you check for typos in your code?](error.md#did-you-check-for-typos-in-your-code)
+1. [Did you check for typos in your code?](cheatsheet/error.md#did-you-check-for-typos-in-your-code)
 2. [Did you run all migrations?](cheatsheet/bundler.md#did-you-run-all-migrations)
 3. [Did you save your changes?](cheatsheet/changes.md#did-you-save-your-changes)
 4. [Did you restart the server?](cheatsheet/changes.md#did-you-restart-the-server)

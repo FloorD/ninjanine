@@ -69,6 +69,13 @@ Additionally, you could link a picture, to for instance, a [Wikipedia page](http
 <a href=""><img src="" /></a>  
 ```
 
+The `<a href="">` is known as an anchor tag. You can place either images or text in-between anchor tags.
+
+```
+<a href="">I like dinosaurs!</a>  
+```
+
+
 ####Lists
 
 #####Unordered lists
@@ -94,15 +101,6 @@ The list items are marked with numbers.
   <li></li>
   <li></li>
 </ol>
-```
-
-###Pretty dino's are pretty
-
-```html
-<head>
-	<link type="text/css" rel="stylesheet" href="stylesheet.css" />
-	<title></title>
-</head>
 ```
 
 ####Tables, Divs, and Spans 
@@ -151,6 +149,7 @@ There are two main reasons for separating your form/formatting (CSS) from your f
 
 - You can apply the same formatting to several HTML elements (using inline styling) without rewriting code (e.g. `style="color:red"`) over and over  
 - You can apply similar appearance and formatting to several HTML pages from a single CSS file  
+- Bonus reason: you'll keep your html files as uncluttered as possible, especially if you have a lot of styling going on. Yay!  
 
 The general format looks like this:  
 
@@ -173,7 +172,22 @@ You can set many properties for one selector.
 
 A value is a possible setting for a property. color can be red, blue, black, or almost any color; font-family can be a whole bunch of different fonts; and so on.
 
-You need to end each property-value with a semi-colon (;). That's how CSS knows you're done with one pair and ready for the next.
+You need to end each property-value with a semi-colon (;). That's how CSS knows you're done with one pair and ready for the next.  
+
+###Pretty dino's are pretty
+
+So far, so good. But how are these two (HTML and CSS) used together? How does your html file know what style sheet to use (if you have several), or even, that it needs to use one at all? Good question! We need to *link* to the style sheet from the html file (in our case, index.html). See below!  
+
+```html
+<head>
+  <link type="text/css" rel="stylesheet" href="style.css" />
+  <title></title>
+</head>
+```
+
+This code tells your html file what type of link you're linking to, and what the file is called. Move along now for more styling goodness!
+
+####Colors and Fonts
 
 Does CSS know all colors? Nah. It can, however, understand millions of colors in the form of hexadecimal values.  Hexa-what? Each digit can be the numbers 0 through 9 or the letters a through f. Search for "hex color palette" or "hex color picker" with your favorite web browser to find a bunch of options!
 

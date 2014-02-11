@@ -1,6 +1,6 @@
 ##ninjanine
 
-What started as an introduction to the terminal for [Rails Girls Bratislava][1], is seemingly growing towards a set of beginners guides to web development, both as an addition to the Rails Girls guides and to be used seperately. 
+What started as an introduction to the terminal for [Rails Girls Bratislava][1], is seemingly growing towards a set of beginners guides to web development, both as an addition to the Rails Girls guides and to be used separately. 
 
 ####what's missing?
 

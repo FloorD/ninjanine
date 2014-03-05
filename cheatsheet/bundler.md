@@ -14,5 +14,4 @@ Those error messages might either help you find the problem yourself, or if in d
 
 If the error is something like "... has no field _xy_" or "wrong datatype" or "Migrations pending" or anything similar, you should try to run ``rake db:migrate``.
 
-If this doesn't resolve the problem (or shows error messages like "Table _XY_ already exists", you might want to run ``rake db:migrate:reset`` or ``rake db:drop && rake db:create &&
-ake db:migrate`` to re-initialize your workspace.
+If this doesn't resolve the problem (or shows error messages like "Table _XY_ already exists", you might want to run ``rake db:migrate:reset`` or ``rake db:drop && rake db:create && rake db:migrate`` to re-initialize your workspace.

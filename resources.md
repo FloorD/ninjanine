@@ -11,7 +11,8 @@ Hi. My name is Floor. Two years ago I exchanged Rotterdam for Vienna to work at 
 - [Jessie learns to code][14] - tips, tricks, and ranting from a girl learning how to code
 - [Michael Hartl's Ruby on Rails Tutorial][15] - this one's pretty tough for a beginner, but don't give up!
 - [RailsCasts][16] - though the screencasts tend to be pretty specific, they're very useful for getting to know some gems or solving problems.
-- [Rails/Ruby/Command Line Cheatsheet][18] - okay, everyone needs those.
+- [Rails/Ruby/Command Line Cheatsheet][17] - okay, everyone needs those.
+- [The Odin Project][18] - another look at the structure of Rails, complete wiht examples and small projects.
 
 **Floor:**
 
@@ -44,4 +45,5 @@ Happy coding!
 [14]: http://jessiecodes.wordpress.com/
 [15]: http://ruby.railstutorial.org/ruby-on-rails-tutorial-book
 [16]: http://railscasts.com/
-[18]: http://pragtob.github.io/rails-beginner-cheatsheet/
+[17]: http://pragtob.github.io/rails-beginner-cheatsheet/
+[18]: http://www.theodinproject.com/courses/ruby-on-rails/lessons

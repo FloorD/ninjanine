@@ -1,6 +1,6 @@
 #####Oh hi! So we are Laura and Floor and we'd like to share a little bit about ourselves and what resources we use to continue learning Ruby on Rails and programming.
 
-Hej, I'm Laura. I'm originally from Italy, grew up in France, moved to Austria about 13 years ago, and also lived in Norway for a little while. I attended the first RailsGirls Vienna in January and got hooked; one thing led to another, and I'm now working part-time as a Junior Developer at [Bitstem][17]. I regularly attend Vienna.rb and this is my first time coaching at a RailsGirls event!  
+Hej, I'm Laura. I'm originally from Italy, grew up in France, moved to Austria about 13 years ago, and also lived in Norway for a little while. I attended the first RailsGirls Vienna in January 2013 and got hooked; one thing led to another, and I'm now working part-time as a Junior Developer at [Bitstem][17]. I regularly attend Vienna.rb and this is my first time coaching at a RailsGirls event!  
 
 Hi. My name is Floor. Two years ago I exchanged Rotterdam for Vienna to work at a startup that used Ruby on Rails. Cool thing is that many of my developer coworkers had coached at Rails Girls events, and I was familiar with their program. I started going though their courses, in August last year, supported by one of my coworkers. I organized Rails Girls Rotterdam in January, organizing [Rails Girls The Hague][1] in September, I co-organize the [Ruby user group meetups in Vienna][2] and the [PyLadies workshops in Vienna][3]. I currently work at [Usersnap][4] and spend the little time that is left coaching at Rails Girls events and helping out where I can when it comes to [Rails Girls Summer of Code][5].
 
@@ -12,7 +12,7 @@ Hi. My name is Floor. Two years ago I exchanged Rotterdam for Vienna to work at 
 - [Michael Hartl's Ruby on Rails Tutorial][15] - this one's pretty tough for a beginner, but don't give up!
 - [RailsCasts][16] - though the screencasts tend to be pretty specific, they're very useful for getting to know some gems or solving problems.
 - [Rails/Ruby/Command Line Cheatsheet][17] - okay, everyone needs those.
-- [The Odin Project][18] - another look at the structure of Rails, complete wiht examples and small projects.
+- [The Odin Project][18] - another look at the structure of Rails, complete with examples and small projects.
 
 **Floor:**
 

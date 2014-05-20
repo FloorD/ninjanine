@@ -13,6 +13,7 @@ Hi. My name is Floor. Two years ago I exchanged Rotterdam for Vienna to work at 
 - [RailsCasts][16] - though the screencasts tend to be pretty specific, they're very useful for getting to know some gems or solving problems.
 - [Rails/Ruby/Command Line Cheatsheet][17] - okay, everyone needs those.
 - [The Odin Project][18] - another look at the structure of Rails, complete with examples and small projects.
+- [I broke git :(][19] - fun troubleshooting for git
 
 **Floor:**
 
@@ -47,3 +48,4 @@ Happy coding!
 [16]: http://railscasts.com/
 [17]: http://pragtob.github.io/rails-beginner-cheatsheet/
 [18]: http://www.theodinproject.com/courses/ruby-on-rails/lessons
+[19]: http://ibrokegit.com
